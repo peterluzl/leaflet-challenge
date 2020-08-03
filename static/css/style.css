@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.cicle-text {
+  fill: white;
+  stroke: black;
+  stroke-width: 0.75px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  z-index: 100000;
+  background-color: #fff;
+}
